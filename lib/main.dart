@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:my_documents_flutter/screen/introduce_page.dart';
+import 'package:my_documents_flutter/screen/sign_in_page.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
@@ -30,7 +31,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const IntroducePage(),
+      //home: const IntroducePage(),
+      home: const SignInPage(),
     );
   }
 }
