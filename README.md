@@ -3,16 +3,22 @@
 A new Flutter project.
 
 ## Comments Line: 
-- Generate keystore :   
-```$keytool -genkey -v -keystore ~/[name].jks -keyalg RSA -keysize 2048 -validity 10000 -alias [key alias name]```
+- Generate keystore :
+```
+$keytool -genkey -v -keystore ~/[name].jks -keyalg RSA -keysize 2048 -validity 10000 -alias [key alias name]
+```
 
 - Get keystore password, alias password: (Using https://1password.com/password-generator/)
 
-- Sign App: 
-```$jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore [path_file_keystore] -signedjar [path_export_file_aab] [path_import_file_aab] [alias_name]```
+- Sign App:
+```
+$jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore [path_file_keystore] -signedjar [path_export_file_aab] [path_import_file_aab] [alias_name]
+```
 
-- Export Cert: 
-```$keytool -exportcert -keystore /Users/cuhuyhieu/AndroidStudioProjects/pg-mobile-apps-android-new/keystore/vespa/vespa_dev_keystore.jks -alias vespa_dev -file myCert.cert```
+- Export Cert:
+```
+$keytool -exportcert -keystore [path_file_keystore] -alias [alias_name] -file [name_file_export.cert]
+```
 
 ## Getting Started
 
