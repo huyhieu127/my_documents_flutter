@@ -33,3 +33,9 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+- Define branch:
++ future-[#idClickUp]/[description]		:
++ fixbug-[#idClickUp]/[description]		:
++ hotfix-[#idClickUp]/[description]		:
++ CR-[#idClickUp]/[description] 			: Change request
+
